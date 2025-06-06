@@ -1,3 +1,8 @@
+# Neon Night
+
+This is one of the homework of Tallinn University's Level Design course. While the original level is only playable in Windows.
+I made a fork of [youkaicountry/yknytt](https://github.com/youkaicountry/yknytt), and added my level.
+
 ## YKnytt
 
 ![image](screenshots/cover.png)
