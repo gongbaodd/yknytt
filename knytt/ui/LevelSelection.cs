@@ -259,11 +259,12 @@ public class LevelSelection : BasicScreen
 
     private void loadDefaultWorlds()
     {
-        binLoad("res://knytt/worlds/Nifflas - The Machine.knytt.bin");
-        binLoad("res://knytt/worlds/Nifflas - Gustav's Daughter.knytt.bin");
-        binLoad("res://knytt/worlds/Nifflas - Sky Flowerz.knytt.bin");
-        binLoad("res://knytt/worlds/Nifflas - An Underwater Adventure.knytt.bin");
-        binLoad("res://knytt/worlds/Nifflas - This Level is Unfinished.knytt.bin");
+        // binLoad("res://knytt/worlds/Nifflas - The Machine.knytt.bin");
+        // binLoad("res://knytt/worlds/Nifflas - Gustav's Daughter.knytt.bin");
+        // binLoad("res://knytt/worlds/Nifflas - Sky Flowerz.knytt.bin");
+        // binLoad("res://knytt/worlds/Nifflas - An Underwater Adventure.knytt.bin");
+        // binLoad("res://knytt/worlds/Nifflas - This Level is Unfinished.knytt.bin");
+        binLoad("res://knytt/worlds/gong - Neon Night.knytt.bin");
         binLoad(OS.GetName() == "HTML5" ? MainMenu.WEB_TUTORIAL_PATH :
                 TouchSettings.EnablePanel ? MainMenu.TOUCH_TUTORIAL_PATH : MainMenu.TUTORIAL_PATH);
     }
